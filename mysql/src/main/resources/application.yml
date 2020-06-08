@@ -1,0 +1,17 @@
+spring:
+  #\u6570\u636E\u6E90
+#  datasource:
+#    url: jdbc:mysql://192.168.66.66:3306/test?characterEncoding=utf8&useUnicode=true&useSSL=false&serverTimezone=UTC
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.jdbc.Driver
+  datasource:
+      url: jdbc:oracle:thin:@127.0.0.1:1521:orcl
+      username: system
+      password: system
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+logging:
+  file:
+    path: d:/
